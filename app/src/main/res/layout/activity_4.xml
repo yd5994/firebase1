@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity4">
+
+<!--    <Button-->
+<!--        android:id="@+id/button10"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Camera"-->
+<!--        android:onClick="Camera"-->
+<!--        android:textSize="20sp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        app:srcCompat="@drawable/ic_launcher_background" />-->
+
+    <Button
+        android:id="@+id/takePictureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MOpenCamera"
+        android:text="Take Picture" />
+
+    <Button
+        android:id="@+id/loadPictureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="MDownloadImage"
+        android:text="Load Picture" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Picture display" />
+</LinearLayout>

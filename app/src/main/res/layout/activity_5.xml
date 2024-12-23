@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity5">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Background Music"
+        android:textSize="25sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:onClick="music"
+        android:text="Play / Stop"
+        android:textSize="45sp"
+        app:cornerRadius="0dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:onClick="Main"
+        android:text="Main"
+        android:textSize="45sp"
+        app:cornerRadius="0dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8" />
+</LinearLayout>
